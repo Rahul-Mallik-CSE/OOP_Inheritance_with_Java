@@ -7,6 +7,13 @@ class Parent {
     }
 }
 
+class Child extends Parent {
+    int childVariable = 20;
+
+    public void childMethod() {
+        System.out.println("This is a method from the Child class.");
+    }
+}
 
 
 class Inheritance {
