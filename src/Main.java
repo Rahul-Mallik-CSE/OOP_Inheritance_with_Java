@@ -1,5 +1,7 @@
 
 class Parent {
+
+    private int privateVariable = 5;    // Private variable, not accessible in Child class
     int parentVariable = 10;
 
     public void parentMethod() {
@@ -22,6 +24,7 @@ class Main {
         Child example = new Child();
         example.childMethod(); // Calls method from Child class
 
+        example.parentMethod(); // Calls method from Parent class
         
     
     }
